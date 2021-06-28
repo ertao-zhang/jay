@@ -24,5 +24,15 @@ stages:
   - runScriptConfig:
       image: java:7
       shellScript: "7"
+- name: "9"
+  steps:
+  - runScriptConfig:
+      image: java:7
+      shellScript: "7"
+- name: "8"
+  steps:
+  - runScriptConfig:
+      image: php:latest
+      shellScript: "8"
 timeout: 60
 notification: {}
